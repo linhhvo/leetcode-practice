@@ -13,6 +13,8 @@ var reverseWords = function (s) {
       temp += word[i];
     }
     return temp;
+
   }).join(' ');
+
   return newWord;
 };
