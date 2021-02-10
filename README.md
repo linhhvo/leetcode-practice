@@ -35,6 +35,7 @@ Simple bitwise manipulation:
 
 <ul>
 <li>https://leetcode.com/problems/number-complement</li>
+<li>https://leetcode.com/problems/hamming-distance/</li>
 </ul>
 
 <h2>To-do tasks:</h2>
@@ -42,8 +43,6 @@ Simple bitwise manipulation:
 Simple bitwise manipulation:
 
 <ul>
-<li>https://leetcode.com/problems/number-complement</li>
-<li>https://leetcode.com/problems/hamming-distance/</li>
 <li>https://leetcode.com/problems/binary-gap</li>
 <li>https://leetcode.com/problems/single-number</li>
 </ul>
