@@ -3,16 +3,18 @@
  * @return {number}
  */
 var singleNumber = function (nums) {
-  let count = {};
+  let uniqueSet = new Set();
 
-  // Iterate over each number in the array
+  // Iterate over each number in the given array
   for (let num of nums) {
-    // If the number is not already a key in the count object, create the key and assign value 1 for the count
-    // If it's already a key in the object, increment the count value
-    count[num] = count[num] ? count[num] += 1 : 1;
+    // If the number doesn't exist in the set, add it to the set
+    // If the number is already in the set, delete it from the set
+    if (!uniqueSet.has(num)) {
+      uniqueSet.add(num);
+    } else {
+      uniqueSet.delete(num);
+    }
   }
 
-  // From an array of the count object keys, return the key that has count value of 1
-  return Object.keys(count).find(key => count[key] === 1);
+  for (let num of uniqueSet) return num;
 };
-
