@@ -47,12 +47,17 @@ Hashmaps and sets:
 <li>https://leetcode.com/problems/valid-anagram/</li>
 </ul>
 
-<h2>To-do tasks:</h2>
-
 Union find:
 
 <ul>
 <li>https://leetcode.com/problems/friend-circles</li>
 <li>https://leetcode.com/problems/number-of-islands</li>
+</ul>
+
+<h2>To-do tasks:</h2>
+
+Union find:
+
+<ul>
 <li>https://leetcode.com/problems/surrounded-regions</li>
 </ul>
